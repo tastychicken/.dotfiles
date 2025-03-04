@@ -48,7 +48,14 @@ https://www.nerdfonts.com/
 
 ## Gnome settings
 
-Night light is turned on
+#### Nightlight
+Go to 'Settings', click on 'Displays' and enable 'Night Light'.
+
+### Enable minimize/maximize buttons on windows
+```bash
+sudo pacman -S gnome-tweaks
+```
+Run 'tweaks', go to 'Windows' and enable 'Maximise' and 'Minimise' under 'Titlebar Buttons'.
 
 ### Extensions
 - AppIndicator and KStatusNotifierItem Support: https://extensions.gnome.org/extension/615/appindicator-support/
