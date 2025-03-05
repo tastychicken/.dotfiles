@@ -26,5 +26,8 @@ return {
   "folke/trouble.nvim",
 
   -- lualine
-  "nvim-lualine/lualine.nvim"
+  "nvim-lualine/lualine.nvim",
+
+  -- markdown
+  "OXY2DEV/markview.nvim",
 }
