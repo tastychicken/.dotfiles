@@ -67,21 +67,21 @@ Run 'tweaks', go to 'Windows' and enable 'Maximise' and 'Minimise' under 'Titleb
 # Neovim
 
 TODO:
-- nvim-autopairs
-- lualine
-- markdown-preview
-- TRY OUT: gruvbox
+- [ ] nvim-autopairs
+- [x] lualine
+- [ ] markdown-preview
+- [x] TRY OUT: gruvbox
 
 TODO (LSP):
-- trouble
-- lsp-zero
+- [x] trouble
+- [x] lsp
 
 # OhMyZsh
 
 TODO:
-- TRY OUT: gruvbox: https://github.com/sbugzu/gruvbox-zsh
+- [x] TRY OUT: gruvbox: https://github.com/sbugzu/gruvbox-zsh
 
 # TMUX
 
 TODO:
-- TRY OUT: gruvbox: https://github.com/egel/tmux-gruvbox
+- [ ] TRY OUT: gruvbox: https://github.com/egel/tmux-gruvbox
