@@ -108,13 +108,18 @@ fi
 
 # jari conf
 alias vi='nvim'
-alias psx='powershell.exe'
 alias fucking='sudo'
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias i='rm -rf node_modules/ && time npm install'
+alias tmux-layout='~/.local/bin/tmux-layout.sh'
+alias tl='tmux-layout'
+alias tls='tmux list-sessions'
+alias get-local-ip='ip a | grep wlp0s20f3'
+alias pg='sudo service psotgresql@16-main start'
 
-# get playlist uri by hovering over share meny and holding ALT
-alias its-friday='playerctl shuffle off && playerctl open spotify:playlist:2hxfAM03amMsLTVgEQwz6K'
+# script aliases
+alias its-friday='~/.local/bin/play-spotify-playlist.sh spotify:playlist:2hxfAM03amMsLTVgEQwz6K'
+alias get-cert-fp='~/.local/bin/get-certificate-fingerprint.sh'
+alias get-cert-pk='~/.local/bin/get-certificate-privatekey.sh'
 
 # ls color coding
 # http://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors
@@ -144,8 +149,8 @@ LS_COLORS="${LS_COLORS}:so=00;44" # blue bg
 LS_COLORS="${LS_COLORS}:su=00;45:sg=00;45" # purple bg
 
 # env
-export GBM_BACKEND=nvidia-drm
-export __GLX_VENDOR_LIBRARY_NAME=nvidia
+# export GBM_BACKEND=nvidia-drm
+# export __GLX_VENDOR_LIBRARY_NAME=nvidia
 export LC_COLLATE=C
 
 # nvm conf
