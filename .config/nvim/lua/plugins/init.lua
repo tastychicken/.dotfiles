@@ -1,6 +1,5 @@
 return {
   -- theme
-  --"folke/tokyonight.nvim",
   "ellisonleao/gruvbox.nvim",
 
   -- mason (has to be setup before lsp servers)
