@@ -71,6 +71,7 @@ TODO:
 - [x] lualine
 - [ ] markdown-preview
 - [x] TRY OUT: gruvbox
+- [ ] Enable 24-bit colors: https://github.com/alacritty/alacritty/issues/109
 
 TODO (LSP):
 - [x] trouble
