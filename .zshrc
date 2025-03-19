@@ -76,6 +76,7 @@ plugins=(git tmux)
 ZSH_TMUX_AUTOSTART=true
 ZSH_TMUX_AUTOCONNECT=true
 ZSH_TMUX_UNICODE=true
+ZLE_RPROMPT_INDENT=0
 
 source $ZSH/oh-my-zsh.sh
 
@@ -120,6 +121,7 @@ alias pg='sudo service psotgresql@16-main start'
 alias its-friday='~/.local/bin/play-spotify-playlist.sh spotify:playlist:2hxfAM03amMsLTVgEQwz6K'
 alias get-cert-fp='~/.local/bin/get-certificate-fingerprint.sh'
 alias get-cert-pk='~/.local/bin/get-certificate-privatekey.sh'
+alias convert-webp='~/.local/bin/convert-to-webp.sh'
 
 # ls color coding
 # http://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors
@@ -152,6 +154,7 @@ LS_COLORS="${LS_COLORS}:su=00;45:sg=00;45" # purple bg
 # export GBM_BACKEND=nvidia-drm
 # export __GLX_VENDOR_LIBRARY_NAME=nvidia
 export LC_COLLATE=C
+export LC_CTYPE=en_US.UTF-8
 
 # nvm conf
 export NVM_DIR="$HOME/.nvm"
