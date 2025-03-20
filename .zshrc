@@ -121,6 +121,7 @@ alias pg='sudo service psotgresql@16-main start'
 alias its-friday='~/.local/bin/play-spotify-playlist.sh spotify:playlist:2hxfAM03amMsLTVgEQwz6K'
 alias get-cert-fp='~/.local/bin/get-certificate-fingerprint.sh'
 alias get-cert-pk='~/.local/bin/get-certificate-privatekey.sh'
+alias get-cert-pk-b64='~/.local/bin/get-certificate-privatekey-base64.sh'
 alias convert-webp='~/.local/bin/convert-to-webp.sh'
 
 # ls color coding
