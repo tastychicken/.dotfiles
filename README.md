@@ -67,11 +67,9 @@ Run 'tweaks', go to 'Windows' and enable 'Maximise' and 'Minimise' under 'Titleb
 # Neovim
 
 TODO:
-- [ ] nvim-autopairs
+- [x] nvim-autopairs
 - [x] lualine
-- [ ] markdown-preview
 - [x] TRY OUT: gruvbox
-- [ ] Enable 24-bit colors: https://github.com/alacritty/alacritty/issues/109
 
 TODO (LSP):
 - [x] trouble
@@ -80,9 +78,9 @@ TODO (LSP):
 # OhMyZsh
 
 TODO:
-- [x] TRY OUT: gruvbox: https://github.com/sbugzu/gruvbox-zsh
+- [x] TRY OUT: gruvbox: ~~https://github.com/sbugzu/gruvbox-zsh~~ https://github.com/tastychicken/tasty-gruvbox-zsh
 
 # TMUX
 
 TODO:
-- [ ] TRY OUT: gruvbox: https://github.com/egel/tmux-gruvbox
+- [x] TRY OUT: gruvbox: https://github.com/egel/tmux-gruvbox

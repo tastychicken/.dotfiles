@@ -30,4 +30,7 @@ return {
 
   -- markdown
   "OXY2DEV/markview.nvim",
+
+  -- autopairs
+  "windwp/nvim-autopairs",
 }
